@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178823952152B9910071C24D /* CLPInterfaceKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 178823942152B9910071C24D /* CLPInterfaceKit.m */; };
+		178823962152B9910071C24D /* CLPInterfaceKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 178823932152B9910071C24D /* CLPInterfaceKit.h */; };
+		178823A12152BACA0071C24D /* CLPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 178823A02152BACA0071C24D /* CLPTextView.m */; };
+		178823A42152BAE00071C24D /* CLPImageViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 178823A32152BAE00071C24D /* CLPImageViews.m */; };
+		178823A72152BAF20071C24D /* CLPScrollViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 178823A62152BAF20071C24D /* CLPScrollViews.m */; };
+		178823AA2152BB080071C24D /* CLPWebViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 178823A92152BB080071C24D /* CLPWebViews.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1788238E2152B9910071C24D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				178823962152B9910071C24D /* CLPInterfaceKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		178823902152B9910071C24D /* libCLPInterfaceKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCLPInterfaceKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		178823932152B9910071C24D /* CLPInterfaceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPInterfaceKit.h; sourceTree = "<group>"; };
+		178823942152B9910071C24D /* CLPInterfaceKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPInterfaceKit.m; sourceTree = "<group>"; };
+		1788239F2152BACA0071C24D /* CLPTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPTextView.h; sourceTree = "<group>"; };
+		178823A02152BACA0071C24D /* CLPTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPTextView.m; sourceTree = "<group>"; };
+		178823A22152BAE00071C24D /* CLPImageViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPImageViews.h; sourceTree = "<group>"; };
+		178823A32152BAE00071C24D /* CLPImageViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPImageViews.m; sourceTree = "<group>"; };
+		178823A52152BAF20071C24D /* CLPScrollViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPScrollViews.h; sourceTree = "<group>"; };
+		178823A62152BAF20071C24D /* CLPScrollViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPScrollViews.m; sourceTree = "<group>"; };
+		178823A82152BB080071C24D /* CLPWebViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPWebViews.h; sourceTree = "<group>"; };
+		178823A92152BB080071C24D /* CLPWebViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPWebViews.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1788238D2152B9910071C24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178823872152B9900071C24D = {
+			isa = PBXGroup;
+			children = (
+				178823922152B9910071C24D /* CLPInterfaceKit */,
+				178823912152B9910071C24D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		178823912152B9910071C24D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178823902152B9910071C24D /* libCLPInterfaceKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178823922152B9910071C24D /* CLPInterfaceKit */ = {
+			isa = PBXGroup;
+			children = (
+				178823932152B9910071C24D /* CLPInterfaceKit.h */,
+				178823942152B9910071C24D /* CLPInterfaceKit.m */,
+				1788239D2152BA550071C24D /* Views */,
+				1788239C2152BA4D0071C24D /* Controls */,
+				1788239E2152BA5D0071C24D /* Bars */,
+			);
+			path = CLPInterfaceKit;
+			sourceTree = "<group>";
+		};
+		1788239C2152BA4D0071C24D /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		1788239D2152BA550071C24D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1788239F2152BACA0071C24D /* CLPTextView.h */,
+				178823A02152BACA0071C24D /* CLPTextView.m */,
+				178823A22152BAE00071C24D /* CLPImageViews.h */,
+				178823A32152BAE00071C24D /* CLPImageViews.m */,
+				178823A52152BAF20071C24D /* CLPScrollViews.h */,
+				178823A62152BAF20071C24D /* CLPScrollViews.m */,
+				178823A82152BB080071C24D /* CLPWebViews.h */,
+				178823A92152BB080071C24D /* CLPWebViews.m */,
+			);
+			name = Views;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		1788239E2152BA5D0071C24D /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Bars;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1788238F2152B9910071C24D /* CLPInterfaceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178823992152B9910071C24D /* Build configuration list for PBXNativeTarget "CLPInterfaceKit" */;
+			buildPhases = (
+				1788238C2152B9910071C24D /* Sources */,
+				1788238D2152B9910071C24D /* Frameworks */,
+				1788238E2152B9910071C24D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLPInterfaceKit;
+			productName = CLPInterfaceKit;
+			productReference = 178823902152B9910071C24D /* libCLPInterfaceKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178823882152B9900071C24D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "CodeLife-Productions";
+				TargetAttributes = {
+					1788238F2152B9910071C24D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 1788238B2152B9900071C24D /* Build configuration list for PBXProject "CLPInterfaceKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 178823872152B9900071C24D;
+			productRefGroup = 178823912152B9910071C24D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1788238F2152B9910071C24D /* CLPInterfaceKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1788238C2152B9910071C24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178823952152B9910071C24D /* CLPInterfaceKit.m in Sources */,
+				178823A12152BACA0071C24D /* CLPTextView.m in Sources */,
+				178823A42152BAE00071C24D /* CLPImageViews.m in Sources */,
+				178823AA2152BB080071C24D /* CLPWebViews.m in Sources */,
+				178823A72152BAF20071C24D /* CLPScrollViews.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		178823972152B9910071C24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		178823982152B9910071C24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1788239A2152B9910071C24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1788239B2152B9910071C24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1788238B2152B9900071C24D /* Build configuration list for PBXProject "CLPInterfaceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178823972152B9910071C24D /* Debug */,
+				178823982152B9910071C24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178823992152B9910071C24D /* Build configuration list for PBXNativeTarget "CLPInterfaceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1788239A2152B9910071C24D /* Debug */,
+				1788239B2152B9910071C24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178823882152B9900071C24D /* Project object */;
+}

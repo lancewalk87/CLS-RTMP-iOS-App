@@ -1,0 +1,36 @@
+PODS:
+  - IHKeyboardAvoiding (4.2)
+  - LFLiveKit (2.6)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - SVProgressHUD (2.2.5)
+  - TextAttributes (1.0)
+
+DEPENDENCIES:
+  - IHKeyboardAvoiding
+  - LFLiveKit
+  - R.swift
+  - SVProgressHUD
+  - TextAttributes
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IHKeyboardAvoiding
+    - LFLiveKit
+    - R.swift
+    - R.swift.Library
+    - SVProgressHUD
+    - TextAttributes
+
+SPEC CHECKSUMS:
+  IHKeyboardAvoiding: 9fbf816b7c3c84911964802ff110d12caf40ebef
+  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TextAttributes: 45b2713a1d174c377d320b51129c304eac381638
+
+PODFILE CHECKSUM: 0de6bb45e484a769e34450ed6f4cd434b25a143e
+
+COCOAPODS: 1.5.2
