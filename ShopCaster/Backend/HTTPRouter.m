@@ -11,9 +11,9 @@
 NSUInteger const kHTTPRouterCancelationError = 1;
 NSUInteger const kHTTPRouterDefaultTimeout = 60.0;
 #if DEBUG
-    NSString * const kHTTPRootAddress = @"http://192.168.1.252:2222";
+    NSString * const kHTTPRootAddress = @"http://190.000.0.000:2222";
 #else
-    NSString * const kHTTPRootAddress = @"http://199.58.187.114:3000";
+    NSString * const kHTTPRootAddress = @"http://190.000.0.000:2222";
 #endif
 
 static NSMutableDictionary *localCredentialsStorage = nil;
